@@ -1,3 +1,8 @@
+# Temporary build. bat files
+1_build_Dockerfile.bat
+1_killall.bat
+1_run_Dockerfile.bat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
