@@ -2,14 +2,17 @@
 
 # e: Exit when first line is an error:
 # x: Echo info per command
-set -ex
+set -e
 
 echo "IMAGE_NAME: $IMAGE_NAME"
 echo "DOCKER_REPO: $DOCKER_REPO"
 echo "SOURCE_COMMIT: $SOURCE_COMMIT"
+echo "GIT_SHA: $GIT_SHA"
+
+set -ex
 
 # Tag the latest build with the short git sha. Push the tag in addition
 # to the "latest" tag already pushed.
-GIT_SHA_TAG=${SOURCE_COMMIT:0:12}
-docker tag $IMAGE_NAME $DOCKER_REPO:$GIT_SHA_TAG
-docker push $DOCKER_REPO:$GIT_SHA_TAG
+#GIT_SHA_TAG=${SOURCE_COMMIT:0:12}
+docker tag $IMAGE_NAME $DOCKER_REPO:$GIT_SHA
+docker push $DOCKER_REPO:$GIT_SHA
