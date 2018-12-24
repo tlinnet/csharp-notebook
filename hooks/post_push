@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+echo "IMAGE_NAME: $IMAGE_NAME"
+echo "DOCKER_REPO: $DOCKER_REPO"
+echo "SOURCE_COMMIT: $SOURCE_COMMIT"
+
 # Tag the latest build with the short git sha. Push the tag in addition
 # to the "latest" tag already pushed.
 GIT_SHA_TAG=${SOURCE_COMMIT:0:12}
