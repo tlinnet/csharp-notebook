@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # e: Exit when first line is an error:
 # x: Echo info per command
 set -e
