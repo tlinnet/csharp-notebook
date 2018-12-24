@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # e: Exit when first line is an error:
 # x: Echo info per command
