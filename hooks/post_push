@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# e: Exit when first line is an error:
+# x: Echo info per command
+set -ex
 
 echo "IMAGE_NAME: $IMAGE_NAME"
 echo "DOCKER_REPO: $DOCKER_REPO"
