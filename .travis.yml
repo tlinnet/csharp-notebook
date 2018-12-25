@@ -7,4 +7,6 @@ services:
 install:
     - make test-env
 script:
+    - set -e
+    - make build DARGS="-f Dockerfile_build2"
     - make test
