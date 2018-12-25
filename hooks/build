@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# e: Exit when first line is an error: x: Echo info per command
+set -ex
+
+docker build -f Dockerfile_build -t $IMAGE_NAME .
