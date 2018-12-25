@@ -12,7 +12,8 @@ help:
 
 build: DARGS?=
 build: ## Make the latest build of the image
-	docker build $(DARGS) --rm --force-rm -t $(IMAGE):$(TAG) .
+	#docker build $(DARGS) --rm --force-rm -t $(IMAGE):$(TAG) .
+	docker build $(DARGS) --rm --force-rm -t $(IMAGE):$(TAG) -f Dockerfile_build2 .
 
 dev: ARGS?=
 dev: DARGS?=
