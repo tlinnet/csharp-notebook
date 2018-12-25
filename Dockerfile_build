@@ -1,5 +1,6 @@
-ARG BASE_CONTAINER=jupyter/minimal-notebook
-FROM $BASE_CONTAINER
+#ARG BASE_CONTAINER=jupyter/minimal-notebook
+#FROM $BASE_CONTAINER
+FROM jupyter/minimal-notebook
 
 # Install guide from
 # https://github.com/zabirauf/icsharp/wiki/Install-on-Unix-(Debian-7.8)
