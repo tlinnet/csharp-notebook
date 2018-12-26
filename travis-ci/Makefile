@@ -22,7 +22,7 @@ dev: ## Make a container from a tagged image image
 	docker run -it --rm -p $(PORT):8888 $(DARGS) $(REPO) $(ARGS)
 
 test: ## Make a test run against the latest image
-	pytest tests
+	pytest travis-ci/tests
 
 test-env: ## Make a test environment by installing test dependencies with pip
 	pip install -r travis-ci/requirements-test.txt
