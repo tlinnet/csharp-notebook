@@ -8,7 +8,7 @@ It includes a few Jupyter Notebooks to try it out.
 
 Try the Jupyter Notebooks out online with this link. No installation needed.
 
-* [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tlinnet/csharp-notebook/master) [mybinder.org/v2/gh/tlinnet/csharp-notebook/master]()
+* [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tlinnet/csharp-notebook/master) [mybinder.org/v2/gh/tlinnet/csharp-notebook/master](https://mybinder.org/v2/gh/tlinnet/csharp-notebook/master)
 
 # Links
 
