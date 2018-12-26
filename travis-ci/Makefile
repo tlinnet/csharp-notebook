@@ -13,7 +13,7 @@ help:
 build: DARGS?=
 build: ## Make the latest build of the image
 	#docker build $(DARGS) --rm --force-rm -t $(IMAGE):$(TAG) .
-	docker build $(DARGS) --rm --force-rm -t $(IMAGE):$(TAG) -f Dockerfile_build .
+	docker build $(DARGS) --rm --force-rm -t $(IMAGE):$(TAG) -f travis-ci/Dockerfile_build .
 
 dev: ARGS?=
 dev: DARGS?=
@@ -25,4 +25,4 @@ test: ## Make a test run against the latest image
 	pytest tests
 
 test-env: ## Make a test environment by installing test dependencies with pip
-	pip install -r requirements-test.txt
+	pip install -r travis-ci/requirements-test.txt

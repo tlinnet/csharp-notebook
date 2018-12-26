@@ -5,8 +5,8 @@ sudo: required
 services:
     - docker
 install:
-    - make test-env
+    - make -f travis-ci/Makefile test-env
 script:
     - set -e
-    - make build
-    - make test
+    - make -f travis-ci/Makefile build
+    - make -f travis-ci/Makefile test
