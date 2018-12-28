@@ -17,5 +17,5 @@ docker tag $IMAGE_NAME $DOCKER_REPO:$GIT_SHA_TAG
 docker push $DOCKER_REPO:$GIT_SHA_TAG
 
 echo "Build with notebooks and push"
-docker build --build-arg BASE_CONTAINER=$IMAGE_NAME -f Dockerfile -t $DOCKER_REPO:notebooks ../
+docker build --build-arg BASE_CONTAINER=$IMAGE_NAME -f ../Dockerfile -t $DOCKER_REPO:notebooks ../
 docker push $DOCKER_REPO:notebooks
