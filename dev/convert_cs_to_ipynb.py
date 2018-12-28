@@ -4,6 +4,9 @@ import nbformat as nbf
 from nbconvert.preprocessors import ExecutePreprocessor
 ep = ExecutePreprocessor(timeout=600, kernel_name='kernel-spec')
 
+# Written by Troels Schwarz-Linnet, December 2018
+# To convert C# code from: https://github.com/ExamRef70-483/Sample-Code.git to Jupyter Notebooks
+
 files = glob.glob('*/*/Program.cs', recursive=True)
 meta = {'kernelspec': {'display_name': 'C#',
   'language': 'csharp',
