@@ -5,6 +5,7 @@ set -e
 
 echo "IMAGE_NAME: $IMAGE_NAME"
 echo "DOCKER_REPO: $DOCKER_REPO"
+echo "DOCKERFILE_PATH: $DOCKERFILE_PATH"
 echo "SOURCE_COMMIT: $SOURCE_COMMIT"
 
 set -ex
@@ -14,3 +15,5 @@ GIT_SHA_TAG=${SOURCE_COMMIT:0:12}
 docker tag $IMAGE_NAME $DOCKER_REPO:$GIT_SHA_TAG
 docker push $DOCKER_REPO:$GIT_SHA_TAG
 
+echo "Build with notebooks"
+# docker build -f $DOCKERFILE_PATH -t $IMAGE_NAME .
