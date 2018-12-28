@@ -1,1 +1,1 @@
- docker build -t tlinnet/csharp-notebook:notebooks -f Dockerfile .
+docker build -t tlinnet/csharp-notebook:notebooks -f Dockerfile .
