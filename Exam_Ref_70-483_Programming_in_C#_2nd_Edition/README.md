@@ -10,6 +10,9 @@ This course together with ["Exam Ref 70-486 Developing ASP.NET MVC Web Applicati
 git clone --depth=1 -c core.longpaths=true https://github.com/ExamRef70-483/Sample-Code.git
 ```
 
+The sample code has been converted to Jupyter Notebooks. <br>
+Note, only the content of **Program.cs** has been converted. Any dependencies in the folders has not been considered in the conversion script.
+
 # Book contents
 
 * Chapter 1 Manage program flow

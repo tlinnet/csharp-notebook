@@ -10,29 +10,31 @@ Try the Jupyter Notebooks out online with this link. No installation needed.
 
 # Examples of Jupyter Notebooks
 
+GitHub **Pull Requests** with additional material is more than welcome.
+
 ## Exam Ref 70-483 Programming in C#, 2nd Edition
 
 * [Microsoft Exam 70-483: Programming in C#.](https://www.microsoft.com/en-us/learning/exam-70-483.aspx)
 * Book: "**Exam Ref 70-483 Programming in C#, 2nd Edition**" by Rob Miles
 * Sample code at [github.com/ExamRef70-483/Sample-Code](https://github.com/ExamRef70-483/Sample-Code)
 
-The sample code has been converted to Jupyter Notebooks
+The sample code has been converted to Jupyter Notebooks.
 
 # Links to GitHub and Docker Hub
 
 * GitHub [github.com/tlinnet/csharp-notebook](https://github.com/tlinnet/csharp-notebook)
 
-Git Pull Command, Docker build and run
+Git Pull Command, Docker build and run on Windows 10.
 ```
 git clone https://github.com/tlinnet/csharp-notebook.git
 cd csharp-notebook
-notebooks_build.cmd
-notebooks_run.cmd
+.\notebooks_build.cmd
+.\notebooks_run.cmd
 ```
 
 * Docker Hub [hub.docker.com/r/tlinnet/csharp-notebook](https://hub.docker.com/r/tlinnet/csharp-notebook)
 
-Docker Pull Command
+Docker Pull Command for Docker image with **C# kernel** installed.
 ```
 docker pull tlinnet/csharp-notebook
 ```
