@@ -7,6 +7,7 @@ echo "IMAGE_NAME: $IMAGE_NAME"
 echo "DOCKER_REPO: $DOCKER_REPO"
 echo "DOCKERFILE_PATH: $DOCKERFILE_PATH"
 echo "SOURCE_COMMIT: $SOURCE_COMMIT"
+echo "DOCKERFILE_PATH : $DOCKERFILE_PATH"
 
 set -ex
 
@@ -16,5 +17,5 @@ docker tag $IMAGE_NAME $DOCKER_REPO:$GIT_SHA_TAG
 docker push $DOCKER_REPO:$GIT_SHA_TAG
 
 echo "Build with notebooks and push"
-docker build --build-arg BASE_CONTAINER=$IMAGE_NAME -f Dockerfile -t $DOCKER_REPO:notebooks .
+docker build --build-arg BASE_CONTAINER=$IMAGE_NAME -f Dockerfile -t $DOCKER_REPO:notebooks ../
 docker push $DOCKER_REPO:notebooks
