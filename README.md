@@ -18,7 +18,7 @@ GitHub **Pull Requests** with additional material is more than welcome.
 * Book: "**Exam Ref 70-483 Programming in C#, 2nd Edition**" by Rob Miles
 * Sample code at [github.com/ExamRef70-483/Sample-Code](https://github.com/ExamRef70-483/Sample-Code)
 
-[The sample code has been converted to Jupyter Notebooks.](Exam_Ref_70-483_Programming_in_C#_2nd_Edition/README.md)
+[The sample code has been converted to Jupyter Notebooks.](Exam_Ref_70-483_Programming_in_C%23_2nd_Edition)
 
 # Links to GitHub and Docker Hub
 
