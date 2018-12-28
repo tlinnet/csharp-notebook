@@ -13,6 +13,8 @@ git clone --depth=1 -c core.longpaths=true https://github.com/ExamRef70-483/Samp
 The sample code has been converted to Jupyter Notebooks. <br>
 Note, only the content of **Program.cs** has been converted. Any dependencies in the folders has not been considered in the conversion script.
 
+* [Click here to open the List of notebooks](List_of_notebooks.md)
+
 # Book contents
 
 * Chapter 1 Manage program flow
