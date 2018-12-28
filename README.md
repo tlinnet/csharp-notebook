@@ -18,7 +18,7 @@ GitHub **Pull Requests** with additional material is more than welcome.
 * Book: "**Exam Ref 70-483 Programming in C#, 2nd Edition**" by Rob Miles
 * Sample code at [github.com/ExamRef70-483/Sample-Code](https://github.com/ExamRef70-483/Sample-Code)
 
-The sample code has been converted to Jupyter Notebooks.
+[The sample code has been converted to Jupyter Notebooks.](Exam_Ref_70-483_Programming_in_C#_2nd_Edition/README.md)
 
 # Links to GitHub and Docker Hub
 
@@ -46,11 +46,15 @@ docker pull tlinnet/csharp-notebook:notebooks
 
 # References
 
+## iCsharp kernel
 This Dockerfile is made possible by the work of https://github.com/zabirauf/icsharp
 
 Install guides from
 * https://github.com/zabirauf/icsharp/wiki/Install-on-Unix-(Debian-7.8)
 * https://github.com/3Dcube/docker-jupyter-icsharp/blob/master/Dockerfile
+
+## Jupyter Docker Stacks - Community Stack version
+This project is developed with the helpful guide of [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/). The base container is **jupyter/minimal-notebook** and this **Community Stack** is setup [via the guide.](https://jupyter-docker-stacks.readthedocs.io/en/latest/contributing/stacks.html)
 
 ## Known issues
 
