@@ -34,9 +34,14 @@ cd csharp-notebook
 
 * Docker Hub [hub.docker.com/r/tlinnet/csharp-notebook](https://hub.docker.com/r/tlinnet/csharp-notebook)
 
-Docker Pull Command for Docker image with **C# kernel** installed.
+Docker Pull Command for Docker image with **C# kernel** installed with no Notebooks.
 ```
 docker pull tlinnet/csharp-notebook
+```
+
+Docker Pull Command for Docker image with **C# kernel** installed and example Notebooks.
+```
+docker pull tlinnet/csharp-notebook:notebooks
 ```
 
 # References
