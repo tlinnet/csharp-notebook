@@ -4,21 +4,21 @@ csharp-notebook is a [community maintained Jupyter Docker Stack image](https://j
 
 # Launch on mybinder
 
-Try the Jupyter Notebooks out online with this link. No installation needed. It up to 5 min to prepare the image.
+Try the Jupyter Notebooks online with this link. No installation is needed. <br> (It can take up to 5 min to prepare the image).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tlinnet/csharp-notebook/master) [mybinder.org/v2/gh/tlinnet/csharp-notebook/master](https://mybinder.org/v2/gh/tlinnet/csharp-notebook/master)
 
 # Examples of Jupyter Notebooks
 
-Additional material is more than welcome! Please add by a [GitHub Pull Requests.](https://help.github.com/articles/proposing-changes-to-your-work-with-pull-requests/)
+Additional material is more than welcome! Please add by sending a [GitHub Pull Requests.](https://help.github.com/articles/proposing-changes-to-your-work-with-pull-requests/)
 
 ## Exam Ref 70-483 Programming in C#, 2nd Edition
 
+[The sample code has been converted to more than **200** Jupyter Notebooks.](Exam_Ref_70-483_Programming_in_C%23_2nd_Edition)
+
+* Sample code at [github.com/ExamRef70-483/Sample-Code](https://github.com/ExamRef70-483/Sample-Code)
 * [Microsoft Exam 70-483: Programming in C#.](https://www.microsoft.com/en-us/learning/exam-70-483.aspx)
 * Book: "**Exam Ref 70-483 Programming in C#, 2nd Edition**" by Rob Miles
-* Sample code at [github.com/ExamRef70-483/Sample-Code](https://github.com/ExamRef70-483/Sample-Code)
-
-[The sample code has been converted to more than **200** Jupyter Notebooks.](Exam_Ref_70-483_Programming_in_C%23_2nd_Edition)
 
 # Docker Hub
 
